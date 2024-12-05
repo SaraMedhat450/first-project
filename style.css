@@ -16,10 +16,19 @@ body{
 color: #46ABDC !important;
 }
 
+@media (max-width:320px){
+  body{
+    width:100% !important;
+  }
+
+  *{
+    width:100vh !important;
+  }
+}
 
 @media (max-width:768px) {
     .section1{
-        height: 180vh;
+        height:180vh;
     }
     .section1 .special{
         order: -1;
